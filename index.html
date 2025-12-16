@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <link rel="stylesheet" href="./index.css" />
+  <script defer src="./index.js"></script>
+</head>
+
+<body>
+  <main class="dashboard">
+    <section class="dashboard-layout">
+
+      <aside class="user-card">
+        <div class="dashboard-user">
+          <div class="user-card__header">
+            <img src="./images/image-jeremy.png" alt="Jeremy Robson" class="user-card__avatar" />
+            <p class="user-card__report">Report for</p>
+            <h1 class="user-card__name">
+              Jeremy<br />
+              Robson
+            </h1>
+          </div>
+
+          <div class="user-card__footer">
+            <button id="daily" class="timeframe-btn timeframe-btn--active">Daily</button>
+            <button id="weekly" class="timeframe-btn">Weekly</button>
+            <button id="monthly" class="timeframe-btn">Monthly</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="cards-grid">
+        <article class="card card--work" data-title="work">
+          <div class="card__inner">
+            <header class="card__header">
+              <h2>Work</h2>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </header>
+            <div class="card__body">
+              <p class="card__hours">5hrs</p>
+              <p class="card__previous">Yesterday - 7hrs</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--play" data-title="play">
+          <div class="card__inner">
+            <header class="card__header">
+              <h2>Play</h2>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </header>
+            <div class="card__body">
+              <p class="card__hours">1hr</p>
+              <p class="card__previous">Yesterday - 2hrs</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--study" data-title="study">
+          <div class="card__inner">
+            <header class="card__header">
+              <h2>Study</h2>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </header>
+            <div class="card__body">
+              <p class="card__hours">0hrs</p>
+              <p class="card__previous">Yesterday - 1hr</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--exercise" data-title="exercise">
+          <div class="card__inner">
+            <header class="card__header">
+              <h2>Exercise</h2>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </header>
+            <div class="card__body">
+              <p class="card__hours">1hr</p>
+              <p class="card__previous">Yesterday - 1hr</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--social" data-title="social">
+          <div class="card__inner">
+            <header class="card__header">
+              <h2>Social</h2>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </header>
+            <div class="card__body">
+              <p class="card__hours">1hr</p>
+              <p class="card__previous">Yesterday - 3hrs</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--selfcare" data-title="selfcare">
+          <div class="card__inner">
+            <header class="card__header">
+              <h2>Self Care</h2>
+              <img src="./images/icon-ellipsis.svg" alt="" />
+            </header>
+            <div class="card__body">
+              <p class="card__hours">0hrs</p>
+              <p class="card__previous">Yesterday - 1hr</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+    </section>
+  </main>
+</body>
+
+</html>
