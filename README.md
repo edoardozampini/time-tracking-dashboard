@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/time-tracking-dashboard)
+- Solution URL: [https://www.frontendmentor.io/solutions/time-tracking-dashboard-using-css-grid-and-json-0HiR5VW77D](https://www.frontendmentor.io/solutions/time-tracking-dashboard-using-css-grid-and-json-0HiR5VW77D)
 - Live Site URL: [https://edoardozampini.github.io/time-tracking-dashboard/](https://edoardozampini.github.io/time-tracking-dashboard/)
 
 ---

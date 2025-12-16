@@ -10,7 +10,7 @@ const cardPrevious = document.getElementsByClassName('card__previous');
 
 let timeData = null;
 
-fetch('/data.json')
+fetch('./data.json')
   .then((response) => {
     if (!response.ok) {
       throw new Error('Error uploading file');
